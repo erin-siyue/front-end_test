@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    /*font: 15px/1.5 Arial, Helvetica, sans-serif;*/
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Globle*/
+.container {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*Header*/
+header {
+	background-color: #333333;
+	color: #ffffff;
+	max-height: 45px;
+}
+#header {
+	width: 960px;
+	box-sizing: border-box;
+	margin: 0 260px;
+}
+header h1 {
+	font-size: 20px;
+	font-weight: normal;	
+}
+header a {
+	color: #ffffff;
+}
+header li {
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
+header nav {
+	float: right;
+	margin-top: -50px;/*用ul会使li重叠*/
+	margin-right: 74px;
+}
+
+
+/*section*/
+#banner {
+	background-color: #66bb33;
+	min-height: 180px;
+}
+#banner li {
+	background-color: #b2dd99;
+	float: left;
+	margin-right: 10px;
+	padding: 0 5px;
+}
+#banner ul {
+	float: right;
+	margin-top: 140px;
+	margin-right: 220px;
+}
+#banner a {
+	text-decoration: none;
+	color: #333333;
+}
+#banner a:hover{
+    background-color: #e0f1d6;
+    font-weight: bold;
+    padding: 6px 0;
+}
+
+#search {
+	min-height: 40px;
+	border-bottom: 2px solid #cccccc;
+}
+#search li {
+	background-color: #eeeeee;
+	color: #333333;
+	font-size: 13px;
+	text-align: center;
+	float: left;
+	min-height: 26px;
+	min-width: 80px;
+	margin-top:15px;
+	padding-top: 8px;
+	border-radius: 15px 15px 0 0;
+	border: 1px solid #cccccc;
+	border-bottom: 0;
+}
+#search ul {
+	margin-left: 260px;
+}
+#search a {
+	color: #333333;
+	text-decoration: none;
+}
+#search a:hover {
+	background-color: #ffffff;
+}
+
+#content {
+	width: 880px;
+	box-sizing: border-box;
+	margin: 0 260px;
+}
+
+.box {
+	display: flex;
+	justify-content: space-between;
+	min-height: 120px;
+	margin: 10px 0 10px 0;
+}
+#content_1 div {
+	border: 2px solid #cccccc;
+	padding: 40px 95px;
+}
+#content_2 div {
+	border: 2px solid #cccccc;
+	padding: 40px 73px;
+}
+#content_3 div {
+	border: 2px solid #cccccc;
+	padding: 40px 109px;
+}
+
+
+/*Footer*/
+footer {
+	background-color: #666666;
+	color: #ffffff;
+	text-align: center;
+	min-height: 55px;
+	padding-top: 15px;
+}
