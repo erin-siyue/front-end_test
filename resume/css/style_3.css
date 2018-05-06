@@ -1,0 +1,109 @@
+body {
+	font-family: "Microsoft YaHei"; 
+	font-size: 15px;
+	padding: 0;
+    margin: 0;
+    margin-left: 120px;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+
+h1 {
+	background: #686868;
+	color: white;
+	font-size: 20px;
+	width: 1000px;
+	height: 40px;
+	float: left;
+	margin-top: 0;
+	padding-top: 15px;
+	padding-left: 80px;
+}
+
+.basis h3 {
+	background-color: #E0E0E0;
+	font-size: 17px;
+	text-align: center;
+	width: 200px;
+	height: 60px;
+	padding-top: 100px;
+	border-top: 40px;
+	border-bottom: 2px solid #E8E8E8;	
+}
+
+.basis li {
+	float: left;
+	display: inline;
+	margin-right: 50px;
+}
+.basis span {
+	font-weight: bold;
+}
+.basis ul {
+	width: 880px;
+	height: 92px;
+	margin-left: 200px;
+	margin-top: -180px;
+	margin-bottom: 140px;
+	border-bottom: 2px solid #E8E8E8;
+	border-right: 2px solid #E8E8E8;
+}
+
+.connect h3 {
+	background-color: #E0E0E0;
+	font-size: 17px;
+	text-align: center;
+	width: 200px;
+	height: 60px;
+	margin-top: -140px;
+	padding-top: 50px;
+	border-bottom: 2px solid #E8E8E8;
+}
+.connect li {
+	float: left;
+	display: inline;
+	margin-right: 50px;
+}
+.connect span {
+	font-weight: bold;
+}
+.connect ul {
+	width: 880px;
+	height: 92px;
+	margin-left: 200px;
+	margin-top: -110px;
+	border-bottom: 2px solid #E8E8E8;
+	border-right: 2px solid #E8E8E8;
+}
+
+.ability h3 {
+	background-color: #E0E0E0;
+	font-size: 17px;
+	text-align: center;
+	width: 200px;
+	height: 60px;
+	margin-top: 0;
+	padding-top: 50px;
+	border-bottom: 2px solid #E8E8E8;
+}
+.ability span {
+	font-weight: bold;
+}
+.ability li {
+	float: left;
+	margin-right: 500px;
+}
+.ability ul {
+	width: 880px;
+	height: 92px;
+	margin-left: 200px;
+	margin-top: -110px;
+	border-bottom: 2px solid #E8E8E8;
+	border-right: 2px solid #E8E8E8;
+}

@@ -1,0 +1,33 @@
+ul {
+	list-style-type: none;
+	overflow:hidden;
+	margin: 0;
+    padding:0;
+}
+
+.inline li {
+	float: left;
+	display: inline;
+	margin-right: 30px;  
+}
+.inline span {
+	font-weight: bold;
+}
+
+.detail span {
+	margin: 0; 
+	padding: 0;
+	font-weight: bold;
+}
+.detail p {
+	margin: 0; 
+	padding: 0px;
+}
+.detail li {
+	line-height: 25px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	letter-spacing: 2px;
+}
