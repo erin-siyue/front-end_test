@@ -36,7 +36,6 @@ h1 {
 	border-top: 40px;
 	border-bottom: 1px solid #ffffff;	
 }
-
 .basis li {
 	float: left;
 	display: inline;
@@ -44,6 +43,7 @@ h1 {
 }
 .basis span {
 	font-weight: bold;
+	margin-left: 30px;
 }
 .basis ul {
 	width: 880px;
@@ -52,7 +52,6 @@ h1 {
 	margin-top: -130px;
 	margin-bottom: 140px;
 	border-bottom: 2px solid #E8E8E8;
-	border-right: 2px solid #E8E8E8;
 }
 
 .connect h3 {
@@ -72,6 +71,7 @@ h1 {
 }
 .connect span {
 	font-weight: bold;
+	margin-left: 30px;
 }
 .connect ul {
 	width: 880px;
@@ -79,7 +79,6 @@ h1 {
 	margin-left: 200px;
 	margin-top: -110px;
 	border-bottom: 2px solid #E8E8E8;
-	border-right: 2px solid #E8E8E8;
 }
 
 .ability h3 {
@@ -94,6 +93,7 @@ h1 {
 }
 .ability span {
 	font-weight: bold;
+	margin-left: 30px;
 }
 .ability li {
 	float: left;
@@ -105,5 +105,8 @@ h1 {
 	margin-left: 200px;
 	margin-top: -110px;
 	border-bottom: 2px solid #E8E8E8;
-	border-right: 2px solid #E8E8E8;
+}
+
+.detail li {
+	width: 500px;
 }
